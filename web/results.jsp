@@ -92,6 +92,10 @@
                     <td><%=postTaxPay%></td>
                 </tr>
                 <tr>
+                    <td>Post-Tax Deduct:</td>
+                    <td><%=postTaxDeduct%></td>
+                </tr>
+                <tr>
                     <td>Net Pay</td>
                     <td><%=netPay%></td>
                 </tr>
