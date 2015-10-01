@@ -9,6 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="./ahmad_jsp_style.css" />
         <title>JSP Page</title>
     </head>
     <%
@@ -52,11 +53,11 @@
 
         <h1>Salary Information</h1>
 
-        <table border="3">
+        <table id=tablecolor border="3">
             <tbody>
                 <tr>
-                    <td>Total Hours Worked:</td>
-                    <td><%=hoursWorked%></td>
+                    <td width="311">Total Hours Worked:</td>
+                    <td width="74"><%=hoursWorked%></td>
                 </tr>
                 <tr>
                     <td>Hourly Rate:</td>

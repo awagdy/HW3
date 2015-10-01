@@ -10,37 +10,46 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link rel="stylesheet" type="text/css" href="./css/ahmad_jsp_style.css" />
+        <link rel="stylesheet" type="text/css" href="./ahmad_jsp_style.css" />
     </head>
     <body>
         <h1>Tax Calculator</h1>
 
 
         <form name=testForm" action="results.jsp" method="post">
-
-            <table border="3">
-                <tbody>
+          <table id=tablecolor border="3">
+              <tbody>
                     <tr>
-                        <td>Hours Worked:</td>
-                        <td><input type="text" name="hoursWorked" value="" size="20"</td>
+                      <td>Hours Worked:</td>
+                        <td id="tdnoborder"><input type="text" name="hoursWorked" value="" size="20"</td>
                     </tr>
                     <tr>
-                        <td>Hourly Pay:</td>
-                        <td><input type="text" name="hourlyPay" value="" size="20"</td>
+                      <td>Hourly Pay:</td>
+                        <td id="tdnoborder"><input type="text" name="hourlyPay" value="" size="20"</td>
                     </tr>
                     <tr>
-                        <td> Pre-tax Deduct:</td>
-                        <td><input type="text" name="preTaxDeduct" value="" size="20"</td>
+                      <td> Pre-tax Deduct:</td>
+                        <td id="tdnoborder"><input type="text" name="preTaxDeduct" value="" size="20"</td>
                     </tr>
                     <tr>
-                        <td>Post-tax Deduct:</td>
-                        <td><input type="text" name="postTaxDeduct" value="" size="20"</td>
+                      <td>Post-tax Deduct:</td>
+                        <td id="tdnoborder"><input type="text" name="postTaxDeduct" value="" size="20"</td>
                     </tr>
-                </tbody>
-            </table>
-
-            <input type="reset" value="Clear" id="clear">
-            <input type="submit" value="Submit" id="submit">
-        </form>
+              
+                    <tr id="buttons"> <td id="tdbuttons">
+                      <div align="center">
+                        <input  type="reset" value="Clear" id="clear">
+                      </div></td>
+                      <td id="tdbuttons"><div align="center">
+                        <input  type="submit" value="Submit" id="submit">
+                      </div></td>
+                    </tr>
+            </tbody>
+  
+          </table>
+    </form>
+        
+          
+       
     </body>
 </html>
